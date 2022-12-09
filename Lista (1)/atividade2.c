@@ -3,15 +3,15 @@
 
 int main (){
 
-int raio;
-float area;
+    int raio;
+    float area;
 
-printf ("Digite o raio do circulo\n");
-scanf ("%d", &raio);
-fflush(stdin);
+    printf ("Digite o raio do circulo\n");
+    scanf ("%d", &raio);
+    fflush(stdin);
 
-area = 3.14 * pow(raio,2);
+    area = 3.14 * pow(raio,2);
 
-printf ("A area do circulo equivale a %.2f", area);
+    printf ("A area do circulo equivale a %.2f", area);
 
 }
