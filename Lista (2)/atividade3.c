@@ -30,7 +30,7 @@ int main(){
     printf("\n\n\n--------------------------------------------\n\n\n");
 
     printf("Numero Inteiro: %d\n", numeroInteiro);
-    printf("Numeros Reais: \n %.2f \n %.2f\n",real1, real2);
+    printf("Numeros Reais: \n %f \n %f\n",real1, real2);
     printf("Letra: %c\n", letra);
     printf("String: %s\n", nome);
     if (logico == 1) {
@@ -40,7 +40,7 @@ int main(){
     } else {
 
         printf("Logico: Falso");
-        
+
     }
 
 }
